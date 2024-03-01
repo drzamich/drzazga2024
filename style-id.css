@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+:root {
+    --mjnyellow: #ffe000;
+}
+
+body {
+    font-family: "Poppins";
+    font-weight: 100;
+    padding: 100px;
+    width: 50vw;
+    font-style: italic;
+
+}
+
+.brand h1 {
+    text-transform: uppercase;
+    /* transform: rotate(-7deg); */
+}
+
+.brand {
+    width: fit-content;
+    text-align: center;
+    transform: rotate(-10deg);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.yellow {
+    background-color: var(--mjnyellow);
+    width: fit-content;
+    padding: 5px 10px;
+    transform: skew(-10deg);
+}
+
+.yellow h1 {
+    transform: skew(10deg);
+}
+
+h1 {
+    line-height: 100%;
+}
+
+.podpis {
+    margin-top: 10px;
+    display: flex;
+    flex-direction: row;
+}
+
+.aj {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.iks {
+    border: 2px solid black;
+    line-height: 100%;
+    transform: skew(-10deg);
+    width: 20px;
+    height: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 600;
+}
+
+.iks p {
+    transform: skew(10deg);
+    position: relative;
+    left: -2px;
+}
+
+.number {
+    width: 30px;
+    height: 30px;
+    line-height: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+    font-size: 20px;
+    position: relative;
+    left: -5px;
+    padding: 0;
+}
+
+.opis {
+    font-size: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+}
+
+.opis p {
+    font-weight: 400;
+}
+
+.lista {
+    font-weight: 400;
+    font-size: 18px;
+}

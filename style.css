@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
+#badges {
+    display: flex;
+    justify-content: space-between;
+    height: min(150px, 30vw);
+    width: 100%;
+}
+
+#lewica-badge {
+    background: url('assets/lewica-badge.png') no-repeat;
+    background-size: contain;
+}
+
+#mjn-badge {
+    background: url('assets/mjn-badge.png') no-repeat;
+    background-size: contain;
+    background-position: right;
+
+}
+
+
+#header {
+    background: url('assets/id2.png') no-repeat;
+    text-indent: -10000em;
+    background-size: contain;
+    background-position: center;
+    min-height: min(100vw, 400px);
+}
+
+#photo {
+    text-align: center;
+}
+
+#photo {
+    background: url('assets/michal.jpg') no-repeat;
+    background-size: contain;
+    background-position: center bottom;
+    min-height: min(600px, 150vw);
+}
+
+:root {
+    --mjnyellow: #ffe000;
+    --bs-body-font-family: "Poppins";
+}
+
+.yellow {
+    background: var(--mjnyellow)
+}
+
+#subheader {
+    font-weight: 600;
+    text-align: center;
+    font-size: 3em;    
+}
+
+.gallery {
+    display: flex;
+    flex-direction: row;
+    max-width: 100%;
+    overflow: scroll;
+}
+
+.gallery div {
+    height: 30vw;
+    width: 30vw;
+    min-width: 300px;
+    min-height: 300px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-right: 10px;
+}
+
+.gallery div:last-child {
+    margin-right: 0;
+}
+
+#pkin {
+    background-image: url('assets/pkin.jpg');
+}
+
+#rower {
+    background-image: url('assets/rower.jpg');
+}
+
+
+#jagodzianki {
+    background-image: url('assets/jagodzianki.jpg');
+}
