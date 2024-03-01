@@ -62,13 +62,15 @@
     overflow: scroll;
 }
 
-.gallery div {
-    height: 30vw;
-    width: 30vw;
-    min-width: 300px;
-    min-height: 300px;
+.gallery div div {
+    width: clamp(250px, 30vw, 300px);
+    padding-top: 100%;
     background-size: cover;
     background-repeat: no-repeat;
+
+}
+
+.gallery div {
     margin-right: 10px;
 }
 
