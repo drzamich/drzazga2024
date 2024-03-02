@@ -49,12 +49,28 @@
     background: var(--mjnyellow)
 }
 
+#subheader-container {
+    padding: 50px 0;
+
+}
 #subheader {
     font-weight: 600;
     text-align: center;
-    font-size: 3em;    
+    font-size: 3em;  
+    transform: rotate(-10deg);
+    font-style: italic;
 }
 
+#subheader h2 {
+    transform: rotate(-10deg);
+}
+
+
+.program-item {
+    margin-bottom: 30px;
+}
+
+/* GALLERY */
 .gallery {
     display: flex;
     flex-direction: row;
@@ -78,15 +94,41 @@
     margin-right: 0;
 }
 
-#pkin {
-    background-image: url('assets/pkin.jpg');
+#omnie1 {
+    background-image: url('assets/omnie1.jpg');
 }
 
-#rower {
-    background-image: url('assets/rower.jpg');
+#omnie2 {
+    background-image: url('assets/omnie2.jpg');
+}
+
+#omnie3 {
+    background-image: url('assets/omnie3.jpg');
 }
 
 
-#jagodzianki {
-    background-image: url('assets/jagodzianki.jpg');
+#done1 {
+    background-image: url('assets/done1.jpg');
+}
+
+#done2 {
+    background-image: url('assets/done2.jpg');
+}
+
+#done3 {
+    background-image: url('assets/done3.jpg');
+}
+
+
+#program1_1 {
+    background-image: url('assets/program1_1.jpg');
+}
+
+
+#program3_1 {
+    background-image: url('assets/program3_1.jpg');
+}
+
+#program3_2 {
+    background-image: url('assets/program3_2.jpg');
 }
