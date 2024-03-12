@@ -149,7 +149,17 @@ GALLERY
 #program1_1 {
     background-image: url('assets/program1_1.jpg');
 }
+#program1_2 {
+    background-image: url('assets/program1_2.jpg');
+}
 
+#program2_1 {
+    background-image: url('assets/program2_1.jpg');
+}
+
+#program2_2 {
+    background-image: url('assets/program2_1.jpg');
+}
 
 #program3_1 {
     background-image: url('assets/program3_1.jpg');
@@ -157,4 +167,11 @@ GALLERY
 
 #program3_2 {
     background-image: url('assets/program3_2.jpg');
+}
+
+#program4_1 {
+    background-image: url('assets/program4_1.jpg');
+}
+#program4_2 {
+    background-image: url('assets/program4_2.jpg');
 }
