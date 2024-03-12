@@ -106,3 +106,10 @@ h1 {
     font-weight: 400;
     font-size: 18px;
 }
+
+.haslo {
+    margin-top: 5px;
+    font-weight: 500;
+    font-size: 1.2em;
+    line-height: 90%;
+}
